@@ -1,0 +1,49 @@
+MOBILE
+Landing Page – Serves as the welcoming interface introducing the platform's features, benefits, and navigation options for new and returning users. (DONE)
+Login – Allows registered users to securely access their personalized learning dashboard using verified credentials. (DONE)
+Create Account – Provides new users with a straightforward form to register and gain access to the platform's learning resources. (DONE)
+Terms and Conditions – Outlines the platform’s rules, data policies, and user responsibilities to ensure informed participation. (DONE)
+Setup Profile – Guides users through completing their personal and educational profile to tailor the learning experience to their needs. (DONE)
+
+Enroll Courses – Directs users to the course enrollment section. (DONE)
+Available Courses – Directs users to the list of available courses. (DONE)
+Student Profile - Displays the progress and basic information of the student. (DONE)
+
+Select Variety of Courses – Displays a list of available computer science courses for selection. (DONE)
+Enroll – Confirms user enrollment in the chosen course. (DONE)
+
+Course Page – Displays the main content area for a specific course. (DONE)
+Course Title – Indicates the name of the selected course. (DONE)
+Course Description – Provides an overview of what the course covers. (DONE)
+Topics – Lists the different subjects covered within the course. (DONE)
+
+Topic Content in Text – Presents written explanations and information about the topic. (DONE)
+
+Quizzes (Per Topic) – Short assessments after each topic to test student comprehension and retention. (DONE)
+Task and Assessment Submission – Allows students to submit assignments and tasks related to course content for evaluation. (DONE)
+
+Structured Learning Path – Provides a sequenced arrangement of courses and topics to help learners progress efficiently and systematically.
+
+WEBSITE
+Landing Page – Serves as the welcoming interface introducing the platform's features, benefits, and navigation options for new and returning users. (DONE)
+Login – Allows registered users to securely access their personalized learning dashboard using verified credentials. (DONE)
+Create Account – Provides new users with a straightforward form to register and gain access to the platform's learning resources. (DONE)
+Terms and Conditions – Outlines the platform’s rules, data policies, and user responsibilities to ensure informed participation. (DONE)
+Setup Profile – Guides users through completing their personal and educational profile to tailor the learning experience to their needs. (DONE)
+
+Main Menu / Dashboard – Directs users to the course enrollment section. (DONE)
+Educator Profile - Displays the basic information of the educator. (DONE)
+
+Select Variety of Courses – Displays a list of available computer science courses. (DONE)
+Enrollment Requests – For educators or admins to view and manage students’ requests to enroll in courses. (DONE)
+
+Course Page – Displays the main content area for a specific course. (DONE)
+Course Title – Indicates the name of the selected course. (DONE)
+Course Description – Provides an overview of what the course covers. (DONE)
+Topics – Lists the different subjects covered within the course. (DONE)
+
+Topic Content in Text – Presents written explanations and information about the topic. (DONE)
+Edit Topic Content – Allows educators to update, modify, or enhance the textual information and multimedia resources associated with a topic. (DONE)
+Edit Task Content – Allows educators to create or modify assignments, quizzes, or tasks associated with a course topic. (DONE)
+
+Grades and Progress – Displays the given grades and progress to the students. (DONE)
