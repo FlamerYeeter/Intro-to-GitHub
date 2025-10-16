@@ -264,34 +264,5 @@
       <path fill="#fdeef4" fill-opacity="1" d="M0,120 C360,200 1080,40 1440,120 L1440,120 L0,120 Z"></path>
     </svg>
   </section>
-  <script>
-document.getElementById('coursesDropdown').addEventListener('change', function() {
-    if (this.value === "mycourses") {
-        window.location.href = "<?= base_url('my_courses_view') ?>";
-    } else if (this.value === "allcourses") {
-        window.location.href = "<?= base_url('allcourses') ?>";
-    }
-});
-</script>
-<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
-<script src="<?= base_url('public/js/firebase-config.js') ?>"></script>
-<script>
-firebase.auth().onAuthStateChanged(async function(user) {
-  if (user) {
-    try {
-      const doc = await firebase.firestore().collection("users").doc(user.uid).get();
-      if (doc.exists) {
-        const data = doc.data();
-        const profileImg = document.getElementById("navbar-profile-pic");
-        if (profileImg) {
-          profileImg.src = data.photoURL || "public/img/profile.png";
-        }
-      }
-    } catch (err) {}
-  }
-});
-</script>
 </body>
 </html>
